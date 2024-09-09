@@ -16,6 +16,9 @@ class Car(private val wheel: WheelAbstraction ) {
         return "$wheelStatus\n車がバックします!!"
     }
 }
+
+
+
 fun main () {
     val wheel = NormalWheel()
     val car= Car(wheel)
